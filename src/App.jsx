@@ -1,19 +1,12 @@
 import './App.css'
-
+import Navbar from './components/navbar/navbar'
+import Footer from './components/navbar/footer';
 function App() {
   return (
     <div className="portfolio-container">
       {/* NAVIGATION */}
-      <nav className="navbar">
-        <div className="logo">My<span>Portfolio</span></div>
-        <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-
+<Navbar />     
+  
       {/* HERO SECTION */}
       <header id="home" className="hero">
         <div className="hero-content">
@@ -53,17 +46,7 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* FOOTER */}
-      <footer id="contact" className="footer">
-        <p>Let's connect!</p>
-        <div className="links">
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Email</a>
-        </div>
-        <p className="copyright">&copy; 2024 Your Name</p>
-      </footer>
+<Footer/>
     </div>
   )
 }
