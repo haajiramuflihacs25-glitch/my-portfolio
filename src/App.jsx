@@ -49,6 +49,28 @@ function App() {
 <Footer/>
     </div>
   )
+  function App() {
+  return (
+    <div className="app-container">
+      <Navbar />
+
+      {/* Wrap everything between the Navbar and Footer in this 'main' tag */}
+      <main className="content-area">
+        <section id="home">
+          <h2>Hello, I'm</h2>
+          <h1>HAAJIRA MUFLIHA</h1>
+          <p>I'm a React Developer building modern web experiences.</p>
+          <button className="cta-button">Check out my work</button>
+        </section>
+        
+        {/* Your other sections like About or Projects go here */}
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
+
 }
 
 export default App

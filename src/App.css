@@ -93,9 +93,19 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 40px;
+  height: 60px;
+   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+/* ADD THIS NEW CLASS to create space for the fixed bars */
+.content-area {
+  padding-top: 80px;    /* Prevents navbar from hiding your 'Hello' text */
+  padding-bottom: 80px; /* Prevents footer from hiding your 'Let's connect' text */
+  min-height: 100vh;    /* Ensures the page always fills the screen */
+  box-sizing: border-box;
+}
 /* IMPORTANT: Add padding to main content so it isn't hidden 
    behind the fixed navbar and footer */
 .main-content {
