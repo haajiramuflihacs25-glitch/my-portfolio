@@ -60,7 +60,7 @@ function App() {
           <h2>Hello, I'm</h2>
           <h1>HAAJIRA MUFLIHA</h1>
           <p>I'm a React Developer building modern web experiences.</p>
-          <button className="cta-button">Check out my work</button>
+          <button className="cta-button">Check out my work here</button>
         </section>
         
         {/* Your other sections like About or Projects go here */}
